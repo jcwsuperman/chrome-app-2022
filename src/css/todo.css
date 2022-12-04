@@ -1,0 +1,35 @@
+.todo-box {
+	position: absolute;
+	left: 10px;
+	top: 60px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+#todo-form input {
+	background-color: white;
+	border-radius: 10px;
+	padding: 5px;
+	border: none;
+	width: 300px;
+	height: 20px;
+	color: black;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+#todo-form input:focus {
+	outline: none;
+}
+
+#todo-list li {
+	margin-bottom: 10px;
+}
+
+#todo-list button {
+	background-color: white;
+	border: none;
+	border-radius: 20px;
+	margin-left: 10px;
+}

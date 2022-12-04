@@ -1,0 +1,20 @@
+#login-form input {
+	background: none;
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 500px;
+	height: 60px;
+	color: white;
+	padding: 10px;
+	font-size: 40px;
+	border: none;
+	border-bottom: 2px solid white;
+	text-align: center;
+}
+
+#login-form input:focus {
+	outline: none;
+}
+
+#login-form input::placeholder {
+	color: white;
+}

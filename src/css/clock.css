@@ -1,0 +1,17 @@
+.clock-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+}
+
+#clock {
+	font-size: 100px;
+	color: white;
+	margin-bottom: 15px;
+}
+
+#calendar {
+	font-size: 20px;
+}
